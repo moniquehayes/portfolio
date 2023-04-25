@@ -23,6 +23,7 @@ const Work = () => {
             Redux, Bootstrap, Webpack, GoogleMapsAPI
           </p>
           <a href="https://yummify-352b4.web.app/" target="_blank"><p>View Site</p></a>
+          <a href="https://github.com/yummify/yummify" target="_blank"><p>View on Github</p></a>
         </div>
         <div style={{border: '1px solid lightgrey', margin: '5px', padding: '3px', width: '20rem'}}>
           <h2 style={{textAlign: 'center'}}>Pick me UP</h2>
@@ -36,6 +37,7 @@ const Work = () => {
             JavaScript, Node.js, HTML5, CSS3
           </p>
           <a href="https://moniquehayes.github.io/stackathon2/" target="_blank"><p>View Site</p></a>
+          <a href="https://github.com/moniquehayes/stackathon2" target="_blank"><p>View on Github</p></a>
         </div>
         <div style={{border: '1px solid lightgrey', margin: '5px', padding: '3px', width: '20rem'}}>
           <h2 style={{textAlign: 'center'}}>Wild Roots</h2>
@@ -48,6 +50,7 @@ const Work = () => {
             Sequelize
           </p>
           <a href="https://wild-roots.onrender.com/products" target="_blank"><p>View Site</p></a>
+          <a href="https://github.com/The-Shopperettes/grace-shopper" target="_blank"><p>View on Github</p></a>
         </div>
       </main>
     </>
