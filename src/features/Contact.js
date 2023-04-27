@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <>
       <h1>Contact</h1>
+      <div style={{backgroundColor: 'lightgrey'}}>
       <form
         action="https://getform.io/f/1dd2f7b6-4fc0-48d9-ad15-5226dfefaccd"
         method="POST"
@@ -37,6 +38,7 @@ const Contact = () => {
           <button type="submit">Submit</button>
         </div>
       </form>
+      </div>
     </>
   );
 };
