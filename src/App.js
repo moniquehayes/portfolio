@@ -21,31 +21,6 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        {/* <footer>
-          <div
-            style={{
-              backgroundColor: "#9f8082",
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "space-around",
-            }}
-          >
-            <p>moniqueehayes5@gmail.com</p>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/monique-hayes/"
-                target="_blank"
-              >
-                LinkedIn Profile
-              </a>
-            </p>
-            <p>
-              <a href="https://github.com/moniquehayes" target="_blank">
-                Github Profile
-              </a>
-            </p>
-          </div>
-        </footer> */}
       </div>
     </div>
   );

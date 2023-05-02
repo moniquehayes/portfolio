@@ -3,15 +3,15 @@ import React from "react";
 const Work = () => {
   return (
     <>
-      <h1 style={{textAlign: 'center', color: '#70a0af'}}>Work</h1>
+      <h1 style={{textAlign: 'center', color: '#70a0af', fontFamily: 'lora', fontWeight: 'bold'}}>Work</h1>
       <main style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>
         <div style={{border: '2px solid #9f8082', backgroundColor: 'white', borderRadius: '6px', margin: '5px', padding: '3px', width: '20rem', position :'relative', paddingBottom: '5vh'}}>
-          <h2 style={{textAlign: 'center', color: '#9f8082'}}>Yummify</h2>
+          <h2 style={{textAlign: 'center', color: '#9f8082', fontFamily: 'adamina'}}>Yummify</h2>
           <div style={{width: '20rem', textAlign: 'center', display: 'flex', justifyContent: 'center'}}>
               <img src="yummify.png" style={{width: '18rem'}}/>
           </div>
           <div style={{textAlign: 'center'}}>
-          <a href="https://www.youtube.com/watch?v=K3fjTKBAuxE" style={{color: '#70a0af', fontWeight: 'bold'}}>Watch demo</a>
+          <a href="https://www.youtube.com/watch?v=K3fjTKBAuxE" style={{color: '#70a0af', fontWeight: 'bold', fontFamily: 'adamina'}}>Watch demo</a>
           </div>
           <p style={{color: '#292f36', padding: '3px', textAlign: 'center'}}>
             A full stack application which works to reduce food waste by
@@ -21,12 +21,12 @@ const Work = () => {
             Redux, Bootstrap, Webpack, GoogleMapsAPI
           </p>
           <div style={{position: 'absolute', bottom: '5px', height: '5vh', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
-          <a href="https://yummify-352b4.web.app/" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
-          <a href="https://github.com/yummify/yummify" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
+          <a href="https://yummify-352b4.web.app/" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
+          <a href="https://github.com/yummify/yummify" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
           </div>
         </div>
         <div style={{border: '2px solid #9f8082', backgroundColor: 'white', borderRadius: '6px', margin: '5px', padding: '3px', width: '20rem', position :'relative', paddingBottom: '5vh'}}>
-          <h2 style={{textAlign: 'center', color: '#9f8082'}}>Pick me UP</h2>
+          <h2 style={{textAlign: 'center', fontFamily: 'adamina', color: '#9f8082'}}>Pick me UP</h2>
           <div style={{width: '20rem', textAlign: 'center', display: 'flex', justifyContent: 'center'}}>
               <img src="pickmeup.png" style={{width: '18rem'}}/>
           </div>
@@ -37,12 +37,12 @@ const Work = () => {
             JavaScript, Node.js, HTML5, CSS3
           </p>
           <div style={{position: 'absolute', bottom: '5px', height: '5vh', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
-          <a href="https://moniquehayes.github.io/stackathon2/" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
-          <a href="https://github.com/moniquehayes/stackathon2" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
+          <a href="https://moniquehayes.github.io/stackathon2/" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
+          <a href="https://github.com/moniquehayes/stackathon2" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
           </div>
         </div>
         <div style={{border: '2px solid #9f8082', backgroundColor: 'white', borderRadius: '6px', margin: '5px', padding: '3px', width: '20rem', position :'relative', paddingBottom: '5vh'}}>
-          <h2 style={{textAlign: 'center', color: '#9f8082'}}>Wild Roots</h2>
+          <h2 style={{textAlign: 'center', color: '#9f8082', fontFamily: 'adamina'}}>Wild Roots</h2>
           <div style={{width: '20rem', textAlign: 'center', display: 'flex', justifyContent: 'center'}}>
               <img src="wildroots.png" style={{width: '18rem'}}/>
           </div>
@@ -52,8 +52,8 @@ const Work = () => {
             Sequelize
           </p>
           <div style={{position: 'absolute', bottom: '5px', height: '5vh', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
-          <a href="https://wild-roots.onrender.com/products" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
-          <a href="https://github.com/The-Shopperettes/grace-shopper" target="_blank" style={{textDecoration: 'none', width: '7rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1.5rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
+          <a href="https://wild-roots.onrender.com/products" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View Site</p></a>
+          <a href="https://github.com/The-Shopperettes/grace-shopper" target="_blank" style={{textDecoration: 'none', fontFamily: 'adamina', width: '8rem', backgroundColor: '#eddea4', textAlign: 'center', border: '1px solid #9f8082', borderRadius: '4px', margin: '0 1rem'}}><p style={{color: '#70a0af', fontWeight: 'bold'}}>View on Github</p></a>
           </div>
         </div>
       </main>

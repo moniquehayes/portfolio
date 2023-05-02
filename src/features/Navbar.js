@@ -8,11 +8,11 @@ const Navbar = () => {
         <div style={{marginLeft: '5px'}}>
           <img src="favicon.ico"></img>
         </div>
-        <div style={{display: 'flex', justifyContent: 'right'}}>
-        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold'}} id='home' to='/'>Home</Link>
-        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold'}} id='about' to='/about'>About</Link>
-        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold'}} id='work' to='/work'>Work</Link>
-        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold'}} id='contact' to='/contact'>Contact</Link>
+        <div style={{display: 'flex', justifyContent: 'right', fontFamily: 'lora', fontWeight: 'bold'}}>
+        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='home' to='/'>Home</Link>
+        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='about' to='/about'>About</Link>
+        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='work' to='/work'>Work</Link>
+        <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='contact' to='/contact'>Contact</Link>
         </div>
       </nav>
     )

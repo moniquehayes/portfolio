@@ -19,7 +19,7 @@ const Home = () => {
             <Link to="/contact" style={{textDecoration: 'none', color: '#70a0af', fontWeight: 'bold'}}>Contact</Link>
             </div>
         </div>
-        <div style={{textAlign: 'center'}}>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
         <img src="favicon.ico" style={{position: 'absolute', bottom: '3px'}}></img>
         </div>
         </>
