@@ -11,6 +11,6 @@ Deployed at
 - CSS
 
 ### Contact information: ###
-moniqueehayes5@gmail.com
-https://www.linkedin.com/in/monique-hayes/
-https://github.com/moniquehayes
+Email: moniqueehayes5@gmail.com
+LinkedIn: https://www.linkedin.com/in/monique-hayes/
+Github: https://github.com/moniquehayes
