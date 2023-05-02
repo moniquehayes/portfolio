@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <footer>
+        {/* <footer>
           <div
             style={{
               backgroundColor: "#9f8082",
@@ -45,7 +45,7 @@ const App = () => {
               </a>
             </p>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
   );

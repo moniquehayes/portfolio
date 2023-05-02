@@ -5,10 +5,11 @@
 
 * {
     margin-left: 0;
+    color: #292f36
 }
 
 .App {
-    background-image: url('bkgrnd1.png'); 
+    background-image: url('bkgrnd.png'); 
 }
 
 #page {

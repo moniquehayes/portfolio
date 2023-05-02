@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div style={{display: 'flex', justifyContent: 'space-between', margin: '10vh'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '10vh', border: '2px solid #9f8082', padding:'10px', borderRadius: '8px'}}>
         <img src="headshot.jpeg" style={{ width: '23vw', height: '60vh'}} />
         <div style={{margin: '5vw'}}>
         <h1 style={{color: '#70a0af'}}>Monique Hayes</h1>
@@ -33,21 +33,6 @@ const About = () => {
           </p>
         </div>
       </div>
-      {/* <p>Please take a look at some of the projects I've done below!</p>
-        <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
-            <div style={{border: '1px solid lightgrey', width: '30vw', textAlign: 'center'}}>
-                <h3>Yummify</h3>
-                <a href="https://yummify-352b4.web.app/"><img src="yummify.png" target="_blank" style={{width: '26vw', margin: '2vw'}}/></a>
-            </div>
-            <div style={{border: '1px solid lightgrey', width: '30vw', textAlign: 'center'}}>
-                <h3>Pick Me UP</h3>
-                <a href="https://moniquehayes.github.io/stackathon2/"><img src="pickmeup.png" target="_blank" style={{width: '26vw', margin: '2vw'}}/></a>
-            </div>
-            <div style={{border: '1px solid lightgrey', width: '30vw', textAlign: 'center'}}>
-                <h3>Wild Roots</h3>
-                <a href="https://wild-roots.onrender.com/products"><img src="wildroots.png" target="_blank" style={{width: '26vw', margin: '2vw'}}/></a>
-            </div>
-        </div> */}
     </>
   );
 };
