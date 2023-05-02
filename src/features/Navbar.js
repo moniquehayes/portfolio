@@ -13,6 +13,7 @@ const Navbar = () => {
         <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='about' to='/about'>About</Link>
         <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='work' to='/work'>Work</Link>
         <Link style={{margin: '0 1vw', textDecoration: 'none', color: '#70a0af', fontWeight: 'bold', fontSize: '1.2rem'}} id='contact' to='/contact'>Contact</Link>
+        
         </div>
       </nav>
     )

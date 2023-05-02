@@ -57,6 +57,23 @@ const Work = () => {
           </div>
         </div>
       </main>
+      <div style={{textAlign: 'center', backgroundColor: '#EFEBEB', width: '70vw', borderRadius: '8px', border: '1px solid #70a0af', padding: '3px', marginTop: '10px', marginLeft: '5vw', marginRight: '5vw'}}>
+        <h2 style={{fontFamily: 'lora', color: '#70a0af'}}>Tech Stack</h2>
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center'}}>
+        <img src="logos/js.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/node.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/react.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/react-router-stacked-monotone.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/redux.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/sequelize.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/github-mark.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/html.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/css.jpeg" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/webpack.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/postgresql.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        <img src="logos/firebase.png" style={{height: '2.5rem', marginLeft: '1vw'}}></img>
+        </div>
+      </div>
     </>
   );
 };

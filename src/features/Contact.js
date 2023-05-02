@@ -45,8 +45,8 @@ const Contact = () => {
           <p>moniqueehayes5@gmail.com</p>
         </div>
         <div style={{display: 'flex', justifyContent: 'center'}}>
-          <a href="https://www.linkedin.com/in/monique-hayes/" target="_blank"><img src="LI-In-Bug.png" style={{height: '4vh', filter: 'grayscale()'}}></img></a>
-          <a href="https://github.com/moniquehayes" target="_blank"><img src="github-mark.png" style={{height: '4vh'}}></img></a>
+          <a href="https://www.linkedin.com/in/monique-hayes/" target="_blank"><img src="logos/LI-In-Bug.png" style={{height: '4vh', filter: 'grayscale()'}}></img></a>
+          <a href="https://github.com/moniquehayes" target="_blank"><img src="logos/github-mark.png" style={{height: '4vh'}}></img></a>
         </div>
       </div>
     </>
