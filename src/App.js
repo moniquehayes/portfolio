@@ -11,11 +11,11 @@ const App = () => {
   const location = useLocation();
   return (
     <div className="App">
-      {location.pathname === "/" && <Home />}
       {location.pathname !== "/" && <Navbar />}
       <div id="page">
         <main id="main">
           <Routes>
+            <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
