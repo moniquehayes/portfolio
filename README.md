@@ -1,6 +1,6 @@
 # Monique Hayes Portfolio#
 
-Deployed at 
+Deployed at https://moniquehayes.github.io/portfolio/
 
 ## Technologies used: ##
 - JavaScript
