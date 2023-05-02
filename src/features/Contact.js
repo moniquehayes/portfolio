@@ -4,7 +4,7 @@ const Contact = () => {
 
   return (
     <>
-      <h1>Contact</h1>
+      <h1 style={{color: '#70a0af', textAlign: 'center'}}>Contact</h1>
       <div style={{backgroundColor: 'lightgrey'}}>
       <form
         action="https://getform.io/f/1dd2f7b6-4fc0-48d9-ad15-5226dfefaccd"

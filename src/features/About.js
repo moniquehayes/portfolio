@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div style={{display: 'flex', justifyContent: 'space-between', marginTop: '10vh'}}>
-        <img src="headshot.jpeg" style={{ height: "30vh" }} />
+      <div style={{display: 'flex', justifyContent: 'space-between', margin: '10vh'}}>
+        <img src="headshot.jpeg" style={{ width: '23vw', height: '60vh'}} />
         <div style={{margin: '5vw'}}>
-        <h1 className="text-red">Monique Hayes</h1>
+        <h1 style={{color: '#70a0af'}}>Monique Hayes</h1>
           <p>
             I'm a former Geometry Teacher turned Full Stack Software Engineer
             with an eye for detail and a passion for collaborating with others.

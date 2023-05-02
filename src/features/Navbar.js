@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     return (
-        <nav className="flex space-x-4 bg-blue" style={{display: 'flex', justifyContent: 'space-between'}}>
+        <nav style={{display: 'flex', justifyContent: 'space-between', height: '10vh'}}>
         <div style={{marginLeft: '5px'}}>
           <img src="favicon.ico"></img>
         </div>

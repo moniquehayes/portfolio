@@ -7,14 +7,21 @@
     margin-left: 0;
 }
 
+.App {
+    background-image: url('bkgrnd1.png'); 
+}
+
 #page {
     position: relative;
-    min-height: 95vh;
-    min-width: 100vw
+    min-height: 85vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 #main {
-padding-bottom: 2.5rem
+padding-bottom: 2.5rem;
+width: 80vw
 }
 
 footer {

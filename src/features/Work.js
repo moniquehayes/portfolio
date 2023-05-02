@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <>
-      <h1 style={{textAlign: 'center'}}>Work</h1>
+      <h1 style={{textAlign: 'center', color: '#70a0af'}}>Work</h1>
       {/**MAYBE USE BOOTSTRAP CAROUSEL HERE?!?! */}
       {/* <main className="flex flex-wrap mx-auto"> */}
       <main style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>
