@@ -1,35 +1,30 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
-    margin-left: 0;
-    margin-right: 0;
-    color: #292f36
+  margin-left: 0;
+  margin-right: 0;
+  color: #292f36;
 }
 
 .App {
-    background-image: url('bkgrnd.png'); 
+  background-image: url("bkgrnd.png");
 }
 
 #page {
-    position: relative;
-    min-height: 90vh;
-    min-width: 100vw;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  min-height: 90vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 #main {
-padding-bottom: 2.5rem;
-width: 80vw
+  padding-bottom: 2.5rem;
+  width: 80vw;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4vh;
-    margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 0;
 }

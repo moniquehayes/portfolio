@@ -6,7 +6,6 @@ const About = () => {
     <>
       <div
         style={{
-
           margin: "10vh 0",
           border: "2px solid #9f8082",
           padding: "10px",
@@ -20,7 +19,7 @@ const About = () => {
           >
             Monique Hayes
           </h1>
-          <p style={{fontSize: '1rem'}}>
+          <p style={{ fontSize: "1rem" }}>
             I'm a former Teacher and Operations Manager turned Full Stack
             Software Engineer with an eye for detail and a passion for
             collaborating with others. I've always loved math, logic, design,
@@ -46,8 +45,8 @@ const About = () => {
             amongst its employees.
           </p>
         </div>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-        <img src="headshot.jpeg" style={{width: '15rem'}}/>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <img src="headshot.jpeg" style={{ width: "15rem" }} />
         </div>
       </div>
     </>
