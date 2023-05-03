@@ -1,4 +1,4 @@
-# Monique Hayes Portfolio#
+# Monique Hayes Portfolio
 
 Deployed at https://moniquehayes.github.io/portfolio/
 
