@@ -6,6 +6,8 @@ import About from "./features/About";
 import Work from "./features/Work";
 import Contact from "./features/Contact";
 import { useLocation } from "react-router-dom";
+import './style.css';
+
 
 const App = () => {
   const location = useLocation();
@@ -15,7 +17,7 @@ const App = () => {
       <div id="page">
         <main id="main">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />

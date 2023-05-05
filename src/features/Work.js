@@ -15,7 +15,6 @@ import react from './logos/react.png';
 import redux from './logos/redux.png';
 import sequelize from './logos/sequelize.png';
 import webpack from './logos/webpack.png';
-import background from './images/bkgrnd.png'
 
 const Work = () => {
   return (
@@ -309,8 +308,8 @@ const Work = () => {
           border: "1px solid #70a0af",
           padding: "3px",
           marginTop: "10px",
-          marginLeft: "15vw",
-          marginRight: "15vw",
+          marginLeft: "5vw",
+          marginRight: "5vw",
 
         }}
       >

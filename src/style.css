@@ -6,7 +6,7 @@
 }
 
 .App {
-  background-image: url("/images/bkgrnd.png");
+  background-image: url("bkgrnd.png");
 }
 
 #page {
