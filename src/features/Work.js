@@ -310,7 +310,6 @@ const Work = () => {
           marginTop: "10px",
           marginLeft: "5vw",
           marginRight: "5vw",
-
         }}
       >
         <h2 style={{ fontFamily: "lora", color: "#70a0af" }}>Tech Stack</h2>
