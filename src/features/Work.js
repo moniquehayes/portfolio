@@ -1,8 +1,25 @@
 import React from "react";
+import yummify from './images/yummify.png';
+import pickmeup from './images/pickmeup.png';
+import wildroots from './images/wildroots.png';
+import css from './logos/css.jpeg';
+import firebase from './logos/firebase.png';
+import github from './logos/github-mark.png';
+import html from './logos/html.png';
+import js from './logos/js.png';
+import linkedIn from './logos/LI-In-Bug.png';
+import node from './logos/node.png';
+import postgres from './logos/postgresql.png';
+import router from './logos/react-router-stacked-monotone.png';
+import react from './logos/react.png';
+import redux from './logos/redux.png';
+import sequelize from './logos/sequelize.png';
+import webpack from './logos/webpack.png';
+import background from './images/bkgrnd.png'
 
 const Work = () => {
   return (
-    <>
+    < >
       <h1
         style={{
           textAlign: "center",
@@ -50,7 +67,7 @@ const Work = () => {
               justifyContent: "center",
             }}
           >
-            <img src="yummify.png" style={{ width: "18rem" }} />
+            <img src={yummify} style={{ width: "18rem" }} />
           </div>
           <div style={{ textAlign: "center" }}>
             <a
@@ -146,7 +163,7 @@ const Work = () => {
               justifyContent: "center",
             }}
           >
-            <img src="pickmeup.png" style={{ width: "18rem" }} />
+            <img src={pickmeup} style={{ width: "18rem" }} />
           </div>
           <p style={{ color: "#292f36", padding: "3px", textAlign: "center" }}>
             A frontend site that generates inspirational quotes for users,
@@ -229,7 +246,7 @@ const Work = () => {
               justifyContent: "center",
             }}
           >
-            <img src="wildroots.png" style={{ width: "18rem" }} />
+            <img src={wildroots} style={{ width: "18rem" }} />
           </div>
           <p style={{ color: "#292f36", padding: "3px", textAlign: "center" }}>
             A full stack ecommerce site for plants utilizing Node.js, React,
@@ -292,8 +309,9 @@ const Work = () => {
           border: "1px solid #70a0af",
           padding: "3px",
           marginTop: "10px",
-          marginLeft: "5vw",
-          marginRight: "5vw",
+          marginLeft: "15vw",
+          marginRight: "15vw",
+
         }}
       >
         <h2 style={{ fontFamily: "lora", color: "#70a0af" }}>Tech Stack</h2>
@@ -305,51 +323,51 @@ const Work = () => {
           }}
         >
           <img
-            src="logos/js.png"
+            src={js}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/node.png"
+            src={node}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/react.png"
+            src={react}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/react-router-stacked-monotone.png"
+            src={router}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/redux.png"
+            src={redux}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/sequelize.png"
+            src={sequelize}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/github-mark.png"
+            src={github}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/html.png"
+            src={html}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/css.jpeg"
+            src={css}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/webpack.png"
+            src={webpack}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/postgresql.png"
+            src={postgres}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
           <img
-            src="logos/firebase.png"
+            src={firebase}
             style={{ height: "2.5rem", marginLeft: "1vw" }}
           ></img>
         </div>

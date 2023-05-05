@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from './logos/logo.png'
 
 const Home = () => {
   return (
@@ -119,7 +120,7 @@ const Home = () => {
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
-          src="favicon.ico"
+          src={logo}
           style={{ position: "absolute", bottom: "3px" }}
         ></img>
       </div>

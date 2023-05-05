@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import headshot from './images/headshot.jpeg'
 
 const About = () => {
   return (
@@ -46,7 +47,7 @@ const About = () => {
           </p>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <img src="headshot.jpeg" style={{ width: "15rem" }} />
+          <img src={headshot} style={{ width: "15rem" }} />
         </div>
       </div>
     </>

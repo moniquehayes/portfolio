@@ -1,4 +1,6 @@
 import React from "react";
+import linkedIn from './logos/LI-In-Bug.png';
+import github from './logos/github-mark.png';
 
 const Contact = () => {
   return (
@@ -125,12 +127,12 @@ const Contact = () => {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <a href="https://www.linkedin.com/in/monique-hayes/" target="_blank">
             <img
-              src="logos/LI-In-Bug.png"
+              src={linkedIn}
               style={{ height: "4vh", filter: "grayscale()" }}
             ></img>
           </a>
           <a href="https://github.com/moniquehayes" target="_blank">
-            <img src="logos/github-mark.png" style={{ height: "4vh" }}></img>
+            <img src={github} style={{ height: "4vh" }}></img>
           </a>
         </div>
       </div>

@@ -1,3 +1,4 @@
+
 * {
   margin-left: 0;
   margin-right: 0;
@@ -5,7 +6,7 @@
 }
 
 .App {
-  background-image: url("bkgrnd.png");
+  background-image: url("/images/bkgrnd.png");
 }
 
 #page {

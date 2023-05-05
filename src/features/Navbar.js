@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from './logos/logo.png'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
       }}
     >
       <div style={{ marginLeft: "5px" }}>
-        <img src="favicon.ico"></img>
+        <img src={logo}></img>
       </div>
       <div
         style={{
