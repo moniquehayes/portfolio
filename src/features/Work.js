@@ -7,7 +7,6 @@ import firebase from './logos/firebase.png';
 import github from './logos/github-mark.png';
 import html from './logos/html.png';
 import js from './logos/js.png';
-import linkedIn from './logos/LI-In-Bug.png';
 import node from './logos/node.png';
 import postgres from './logos/postgresql.png';
 import router from './logos/react-router-stacked-monotone.png';
@@ -105,13 +104,15 @@ const Work = () => {
                 fontFamily: "adamina",
                 width: "8rem",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>View Site</p>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>View Site</p>
             </a>
             <a
               href="https://github.com/yummify/yummify"
@@ -120,14 +121,16 @@ const Work = () => {
                 textDecoration: "none",
                 fontFamily: "adamina",
                 width: "8rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>
                 View on Github
               </p>
             </a>
@@ -188,13 +191,15 @@ const Work = () => {
                 fontFamily: "adamina",
                 width: "8rem",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>View Site</p>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>View Site</p>
             </a>
             <a
               href="https://github.com/moniquehayes/stackathon2"
@@ -204,13 +209,15 @@ const Work = () => {
                 fontFamily: "adamina",
                 width: "8rem",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>
                 View on Github
               </p>
             </a>
@@ -270,13 +277,15 @@ const Work = () => {
                 fontFamily: "adamina",
                 width: "8rem",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>View Site</p>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>View Site</p>
             </a>
             <a
               href="https://github.com/The-Shopperettes/grace-shopper"
@@ -286,13 +295,15 @@ const Work = () => {
                 fontFamily: "adamina",
                 width: "8rem",
                 backgroundColor: "#eddea4",
-                textAlign: "center",
-                border: "1px solid #9f8082",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "1px solid #003249",
                 borderRadius: "4px",
                 margin: "0 1rem",
               }}
             >
-              <p style={{ color: "#70a0af", fontWeight: "bold" }}>
+              <p style={{ color: "#003249", fontWeight: "bold" }}>
                 View on Github
               </p>
             </a>

@@ -106,10 +106,11 @@ const Contact = () => {
             <button
               type="submit"
               style={{
-                border: "2px solid #9f8082",
+                border: "2px solid #003249",
+                padding: "5px",
                 borderRadius: "4px",
                 backgroundColor: "#eddea4",
-                color: "#70a0af",
+                color: "#003249",
                 fontWeight: "bold",
                 fontSize: "1rem",
                 fontFamily: "adamina",

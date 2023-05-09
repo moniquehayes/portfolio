@@ -51,7 +51,7 @@ const Home = () => {
             margin: "10px",
             backgroundColor: "#eddea4",
             height: "5rem",
-            border: "2px solid #9f8082",
+            border: "2px solid #003249",
             borderRadius: "6px",
             display: "flex",
             alignItems: "center",
@@ -62,7 +62,7 @@ const Home = () => {
             to="/about"
             style={{
               textDecoration: "none",
-              color: "#70a0af",
+              color: "#003249",
               fontWeight: "bold",
             }}
           >
@@ -75,7 +75,7 @@ const Home = () => {
             margin: "10px",
             backgroundColor: "#eddea4",
             height: "5rem",
-            border: "2px solid #9f8082",
+            border: "2px solid #003249",
             borderRadius: "6px",
             display: "flex",
             alignItems: "center",
@@ -86,7 +86,7 @@ const Home = () => {
             to="/work"
             style={{
               textDecoration: "none",
-              color: "#70a0af",
+              color: "#003249",
               fontWeight: "bold",
             }}
           >
@@ -99,7 +99,7 @@ const Home = () => {
             margin: "10px",
             backgroundColor: "#eddea4",
             height: "5rem",
-            border: "2px solid #9f8082",
+            border: "2px solid #003249",
             borderRadius: "6px",
             display: "flex",
             alignItems: "center",
@@ -110,7 +110,7 @@ const Home = () => {
             to="/contact"
             style={{
               textDecoration: "none",
-              color: "#70a0af",
+              color: "#003249",
               fontWeight: "bold",
             }}
           >
