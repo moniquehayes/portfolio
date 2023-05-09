@@ -15,7 +15,7 @@ const Home = () => {
       >
         <h1
           style={{
-            fontSize: "6rem",
+            fontSize: "5rem",
             textAlign: "center",
             fontFamily: "Lora",
             color: "#70a0af",
@@ -38,7 +38,8 @@ const Home = () => {
       </div>
       <div
         style={{
-          marginTop: "20vh",
+          marginTop: "20%",
+          marginBottom: "10%",
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
