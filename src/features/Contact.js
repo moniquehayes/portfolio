@@ -19,7 +19,6 @@ const Contact = () => {
         style={{
           backgroundColor: "white",
           border: "2px solid #9f8082",
-          padding: "10px",
           borderRadius: "8px",
           fontFamily: "adamina",
         }}
@@ -38,7 +37,7 @@ const Contact = () => {
               style={{
                 borderRadius: "4px",
                 border: "1px solid lightgrey",
-                width: "30vw",
+                width: "40%",
                 fontSize: "1rem",
                 padding: "5px",
                 fontFamily: "adamina",
@@ -56,7 +55,7 @@ const Contact = () => {
               style={{
                 borderRadius: "4px",
                 border: "1px solid lightgrey",
-                width: "30vw",
+                width: "40%",
                 fontSize: "1rem",
                 padding: "5px",
                 fontFamily: "adamina",
@@ -74,7 +73,7 @@ const Contact = () => {
               style={{
                 borderRadius: "4px",
                 border: "1px solid lightgrey",
-                width: "50vw",
+                width: "50%",
                 fontSize: "1rem",
                 padding: "5px",
                 fontFamily: "adamina",
@@ -84,7 +83,7 @@ const Contact = () => {
             ></input>
           </div>
           <div style={{ display: "flex", alignItems: "top" }}>
-            <label style={{ margin: "10px" }}>Message</label>
+            <label style={{ margin: "10px" }}>Message </label>
             <input
               type="text"
               name="message"
@@ -92,7 +91,7 @@ const Contact = () => {
               style={{
                 borderRadius: "4px",
                 border: "1px solid lightgrey",
-                width: "50vw",
+                width: "70%",
                 height: "30vh",
                 fontSize: "1rem",
                 padding: "5px",
