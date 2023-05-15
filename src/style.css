@@ -8,7 +8,6 @@
 @media screen and (max-width: 500px) {
   .about-child, .about-child-skills, .about-child-facts {
     width: 100% !important; 
-    text-decoration: underline;
   }
 }
 
