@@ -5,6 +5,20 @@
   color: #292f36;
 }
 
+@media screen and (max-width: 500px) {
+  .about-child, .about-child-skills, .about-child-facts {
+    width: 100% !important; 
+    text-decoration: underline;
+  }
+}
+
+.about-child-skills {
+  width: 55%
+}
+.about-child-facts {
+  width: 33%
+}
+
 .App {
   background-image: url("bkgrnd.png");
 }
