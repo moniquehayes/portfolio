@@ -12,7 +12,7 @@ const Navbar = () => {
       }}
     >
       <div style={{ marginLeft: "5px" }}>
-        <img src={logo}></img>
+        <Link to="/"><img src={logo}></img></Link>
       </div>
       <div
         style={{
