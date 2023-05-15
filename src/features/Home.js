@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from './logos/logo.png'
+import logo from "./logos/logo.png";
 
 const Home = () => {
   return (
@@ -46,84 +46,81 @@ const Home = () => {
           justifyContent: "space-around",
         }}
       >
-        <div
+        <Link
+          to="/about"
           style={{
-            width: "10rem",
-            margin: "10px",
-            backgroundColor: "#eddea4",
-            height: "5rem",
-            border: "2px solid #003249",
-            borderRadius: "6px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            textDecoration: "none",
+            color: "#003249",
+            fontWeight: "bold",
           }}
         >
-          <Link
-            to="/about"
+          <div
             style={{
-              textDecoration: "none",
-              color: "#003249",
-              fontWeight: "bold",
+              width: "10rem",
+              margin: "10px",
+              backgroundColor: "#eddea4",
+              height: "5rem",
+              border: "2px solid #003249",
+              borderRadius: "6px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
             About
-          </Link>
-        </div>
-        <div
+          </div>
+        </Link>
+        <Link
+          to="/work"
           style={{
-            width: "10rem",
-            margin: "10px",
-            backgroundColor: "#eddea4",
-            height: "5rem",
-            border: "2px solid #003249",
-            borderRadius: "6px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            textDecoration: "none",
+            color: "#003249",
+            fontWeight: "bold",
           }}
         >
-          <Link
-            to="/work"
+          <div
             style={{
-              textDecoration: "none",
-              color: "#003249",
-              fontWeight: "bold",
+              width: "10rem",
+              margin: "10px",
+              backgroundColor: "#eddea4",
+              height: "5rem",
+              border: "2px solid #003249",
+              borderRadius: "6px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
             Work
-          </Link>
-        </div>
-        <div
+          </div>
+        </Link>
+        <Link
+          to="/contact"
           style={{
-            width: "10rem",
-            margin: "10px",
-            backgroundColor: "#eddea4",
-            height: "5rem",
-            border: "2px solid #003249",
-            borderRadius: "6px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            textDecoration: "none",
+            color: "#003249",
+            fontWeight: "bold",
           }}
         >
-          <Link
-            to="/contact"
+          <div
             style={{
-              textDecoration: "none",
-              color: "#003249",
-              fontWeight: "bold",
+              width: "10rem",
+              margin: "10px",
+              backgroundColor: "#eddea4",
+              height: "5rem",
+              border: "2px solid #003249",
+              borderRadius: "6px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
             Contact
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img
-          src={logo}
-          style={{ position: "absolute", bottom: "3px" }}
-        ></img>
+        <img src={logo} style={{ position: "absolute", bottom: "3px" }}></img>
       </div>
     </>
   );
