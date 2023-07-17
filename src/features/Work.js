@@ -270,7 +270,7 @@ const Work = () => {
             }}
           >
             <a
-              href="https://wild-roots.onrender.com/products"
+              href=" http://www.shop-wild-roots.com/"
               target="_blank"
               style={{
                 textDecoration: "none",
